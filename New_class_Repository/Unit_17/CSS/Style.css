@@ -1,0 +1,75 @@
+#navBar {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 5%;
+    Font-family: SF PRO;
+  }
+  #navBar h1 {
+    width: 25%;
+    font-weight: 500;
+    transform: translateX(40px);
+  }
+  #navigation {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #navigation p {
+    cursor: pointer;
+    text-decoration: none;
+    font-family: SF PRO;
+}
+.line {
+  height: 5px;
+  background-color: black;
+}
+
+
+ .Content {
+    height: 500px;
+    width: 1200px;
+    background-color: rgb(191, 243, 234);
+    text-align: center;
+    margin: auto;
+       
+ }
+.Content h1 {
+    padding-top: 25px;
+    font-family: SF PRO;
+    font-weight: 500;
+}
+.Content button {
+    background-color: rgb(7, 146, 139);
+    color: white;
+}
+#navBar2 {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  Font-family: SF PRO;
+  align-items: center;
+  justify-content: center;
+  
+  width: 1200px;
+}
+#navigation2 {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#navigation2 p {
+  cursor: pointer;
+  text-decoration: none;
+  font-family: SF PRO;
+}
+ .Line {
+  height: 5px;
+  background-color: black;
+ }
+
+
+ #HeroImg {
+  padding: 10px;
+ }

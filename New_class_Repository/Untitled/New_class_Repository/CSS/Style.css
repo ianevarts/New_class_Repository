@@ -1,0 +1,42 @@
+#navBar {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 5%;
+    Font-family: SF PRO;
+  }
+  #navBar h1 {
+    width: 25%;
+    font-weight: 500;
+  }
+  #navigation {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #navigation p {
+    cursor: pointer;
+    text-decoration: none;
+    font-family: SF PRO;
+}
+ .Content {
+    height: 500px;
+    background-color: rgb(158, 255, 253);
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+ }
+.Content h1 {
+    padding-top: 25px;
+    font-family: SF PRO;
+    font-weight: 500;
+}
+.Content button {
+    background-color: rgb(0, 80, 63);
+    color: white;
+}
+#HeroImg {
+    display: center;
+    align-items: center;
+    justify-content: center;
+}
